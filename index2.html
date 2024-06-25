@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='style2.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Стили элементов для корзины-->
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-3c6257b6.css" rel="stylesheet">
+    <title>Ресторан</title>
+</head>
+<body class="body2">
+
+<div class='header hed2'>
+    <div class='container'>
+        <div class='header-line hader-line2'>
+
+            <div class='nav'>
+                <a class='nav-item' href="index.html">ГЛАВНАЯ</a>
+                <a class='nav-item' href="index.html#historiID">О НАС</a>
+                <a class='nav-item' href="@">ДОСТАВКА БЛЮД</a>
+            </div>
+
+            <div class='cart'>
+                <a href="#">
+                    <img class='cart-img' src="images/корзина.png" alt="">
+                </a>
+            </div>
+
+            <div class='phone'>
+                <div class='phone-holder'>
+                    <div class='phone-img'>
+                        <img src="images/phone.png" alt="">
+                    </div>
+
+                    <div class='number'><a class='num' href='#'>+79602732999</a></div>
+                </div>
+
+                <div class='phone-text'>
+                    Бронирование
+                </div>
+            </div>
+
+            <div class='btn'>
+                <a class='button open-popup button2' href='#'>АТОРИЗАЦИЯ</a>
+
+            </div>
+
+           
+    
+          
+            <div class='up-menu'>
+
+                <button id='up-menu2'>
+                    <img src="images/menu.png" class='up-menu3'alt="">
+                </button>
+
+                <div id='menu' class='menu-slide disp'>
+                    <a class='nav-item block' href="@">ГЛАВНАЯ</a>
+                    <a class='nav-item block' href="@">МЕНЮ</a>
+                    <a class='nav-item block' href="@">О НАС</a>
+                    <a class='nav-item block' href="@">БРОНЬ</a>
+                </div>
+
+            </div>
+          
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="popup-bg">
+    <div class="popup">
+        <img class="close-popup" src="images/close.png" alt="">
+        <form action="authorization.php" method="post">
+            <a class="menu-text" style="text-align: center; margin-bottom: 6px;">Авторизация</a>
+            <input name="login" type="text" placeholder="Логин">
+            <input name="password" type="password"  placeholder="Пароль">
+            <input type="submit">
+            <button class="open-popup2 close2 ">
+                <a class="reg">Зарегистрироваться</a>  </button>
+        </form>
+    </div>
+</div>
+
+<div class="popup-bg2">
+    <div class="popup">
+        <img class="close-popup2 " src="images/close.png" alt="">
+        <form action="registration.php" method="post">
+            <a class="menu-text" style="text-align: center; margin-bottom: 6px;">Регистрация</a>
+            <input name="login" type="text" placeholder="Логин">
+            <input name="password" type="password"  placeholder="Пароль">
+            <input name="password2" type="password"  placeholder="Подтверждение пароля">
+            <input type="submit">
+        </form>
+    </div>
+</div>
+
+<div class='' >
+    <img src="images/арнамент2.png" class="up2" >
+</div>
+<div class='' >
+    <img src="images/menuUp.png" class="up" >
+</div>
+<div class='' >
+    <img src="images/арнамент3.png" class="up2" >
+</div>
+<div class='menu menu2'>
+
+    <div class='container'>
+        <div class="ostmen">
+            <div class='menu-title shrift' id="Napitok">
+                Напитки
+            </div>
+            <div class="menu-items">
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/напиток.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Кофе
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#'  class="btn-ens-action menu-btn" data-rel="3c6257b6327735">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image '>
+                        <img src='images/алко.png' class='menu-img imageAlko'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Чай
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class="menu-btn btn-ens-action" data-rel="3c6257b6327736" >ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/суп.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Сок
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class="menu-btn btn-ens-action" data-rel="3c6257b6327741">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-items">
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/второе.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Лимонад
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class="menu-btn btn-ens-action" data-rel="3c6257b6327742">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/десерт.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Компот
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class="menu-btn btn-ens-action" data-rel="3c6257b6327743">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/закуска.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Молочный коктейль 
+                        </div>
+
+                    <div class='menu-button'>
+                        <a href='#' class="menu-btn btn-ens-action" data-rel="3c6257b6327744">ЗАКАЗАТЬ</a>
+                    </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class='upup' >
+    <img src="images/арнамент4.png" class="up3" >
+</div>
+
+<div class='menu menu2'>
+
+    <div class='container'>
+        <div class="ostmen">
+            <div class='menu-title shrift' id="Alko">
+                Алкоголь
+            </div>
+            <div class="menu-items">
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/напиток.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Вино
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image '>
+                        <img src='images/алко.png' class='menu-img imageAlko'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Шампанское
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/суп.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Виски
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-items">
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/второе.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Коньяк
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/десерт.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Водка
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/закуска.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Коктейль 
+                        </div>
+
+                    <div class='menu-button'>
+                        <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                    </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class='upup' >
+    <img src="images/арнамент4.png" class="up3" >
+</div>
+<div class='menu menu3'>
+
+    <div class='container'>
+        <div class="ostmen">
+            <div class='menu-title shrift' id="Perv">
+                Первые <br> блюда 
+            </div>
+            
+            <div class="menu-items">
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/напиток.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Суп
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu-items">
+                <div class='menu-item menu-item2'>
+                    <div class='menu-image'>
+                        <img src='images/второе.png' class='menu-img'>
+                    </div>
+
+                    <div class="description">
+                        <div class='menu-text'>
+                            Салат
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class='' >
+    <img src="images/арнамент2.png" class="up2" >
+</div>
+<br><br>
+
+<div class='footer'>
+    Pipidastr 2023
+</div>
+
+<script src="jquery.min.js"></script>
+<script src='app.js'></script>
+
+
+<!--Библиотека jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!--Готовый скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-3c6257b6.js"></script>
+
+
+</body>
+</html>
